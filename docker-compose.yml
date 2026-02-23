@@ -1,0 +1,7 @@
+services:
+  flowbuilder:
+    build: .
+    container_name: flowbuilder
+    restart: always
+    ports:
+      - "80:80"
